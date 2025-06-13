@@ -43,22 +43,22 @@ The infrastructure is built within a custom VPC, using public and private subnet
 ### 📸 Screenshots
 
 #### ✅ Website via Application Load Balancer
-![Deployed Website](Docs/website.png)
+![Deployed Website](Docs/Website.png)
 
 #### ✅ EC2 Instances (in Auto Scaling Group)
 ![EC2 Instances](Docs/EC2Instance.png)
 
 #### ✅ Application Load Balancer
-![ALB Dashboard](docs/alb.png)
+![ALB Dashboard](Docs/ApplicationLoadBalancer.png)
 
 #### ✅ Target Group Health Checks
-![Target Group](docs/target-group.png)
+![Target Group](Docs/TargetGroup.png)
 
 #### ✅ RDS Instance (ADS - assumed typo for RDS?)
-![RDS Database](docs/ads-instance.png)
+![RDS Database](Docs/RDSInstance.png)
 
 #### ✅ S3 Bucket (for Flyway SQL files)
-![S3 Bucket](docs/s3-bucket.png)
+![S3 Bucket](Docs/S3-Bucket.png)
 
 
 
