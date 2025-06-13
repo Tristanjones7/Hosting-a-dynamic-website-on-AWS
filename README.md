@@ -54,7 +54,7 @@ The infrastructure is built within a custom VPC, using public and private subnet
 #### ✅ Target Group Health Checks
 ![Target Group](Docs/TargetGroup.png)
 
-#### ✅ RDS Instance (ADS - assumed typo for RDS?)
+#### ✅ RDS Instance
 ![RDS Database](Docs/RDSInstance.png)
 
 #### ✅ S3 Bucket (for Flyway SQL files)
