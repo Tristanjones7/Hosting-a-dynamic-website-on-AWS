@@ -46,7 +46,7 @@ The infrastructure is built within a custom VPC, using public and private subnet
 ![Deployed Website](Docs/website.png)
 
 #### ✅ EC2 Instances (in Auto Scaling Group)
-![EC2 Instances](docs/ec2-instance.png)
+![EC2 Instances](Docs/EC2Instance.png)
 
 #### ✅ Application Load Balancer
 ![ALB Dashboard](docs/alb.png)
