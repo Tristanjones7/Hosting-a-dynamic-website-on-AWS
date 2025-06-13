@@ -25,7 +25,8 @@ The infrastructure is built within a custom VPC, using public and private subnet
 
 ## 📐 Architecture Diagram
 
-📌 _Coming Soon: Diagram will be added here_
+![Architecture Diagram](Docs/architecture-diagram.png)
+
 
 ---
 
