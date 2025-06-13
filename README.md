@@ -40,14 +40,26 @@ The infrastructure is built within a custom VPC, using public and private subnet
 
 ---
 
-## 📸 Screenshots
+### 📸 Screenshots
 
-> _Replace these with your own screenshots in `/docs` folder_  
-✅ ALB DNS & custom domain with HTTPS  
-✅ Route 53 domain routing  
-✅ ASG scaling events and EC2 status  
-✅ Flyway migration terminal output  
-✅ RDS + Target Groups + health checks
+#### ✅ Website via Application Load Balancer
+![Deployed Website](ShopwiseWebsite.png)
+
+#### ✅ EC2 Instance
+![EC2 Instances](EC2Instance.png)
+
+#### ✅ Application Load Balancer
+![ALB Dashboard](docs/alb.png)
+
+#### ✅ Target Group Health Checks
+![Target Group](docs/target-group.png)
+
+#### ✅ RDS Instance (ADS - assumed typo for RDS?)
+![RDS Database](docs/ads-instance.png)
+
+#### ✅ S3 Bucket (for Flyway SQL files)
+![S3 Bucket](docs/s3-bucket.png)
+
 
 ---
 
