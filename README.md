@@ -46,7 +46,7 @@ The infrastructure is built within a custom VPC, using public and private subnet
 ![Deployed Website](ShopwiseWebsite.png)
 
 #### ✅ EC2 Instance
-![EC2 Instances](EC2Instance.png)
+![EC2 Instances](EC2 Instance.png)
 
 #### ✅ Application Load Balancer
 ![ALB Dashboard](docs/alb.png)
