@@ -43,10 +43,10 @@ The infrastructure is built within a custom VPC, using public and private subnet
 ### 📸 Screenshots
 
 #### ✅ Website via Application Load Balancer
-![Deployed Website](ShopwiseWebsite.png)
+![Deployed Website](Docs/website.png)
 
-#### ✅ EC2 Instance
-![EC2 Instances](EC2 Instance.png)
+#### ✅ EC2 Instances (in Auto Scaling Group)
+![EC2 Instances](docs/ec2-instance.png)
 
 #### ✅ Application Load Balancer
 ![ALB Dashboard](docs/alb.png)
@@ -59,6 +59,7 @@ The infrastructure is built within a custom VPC, using public and private subnet
 
 #### ✅ S3 Bucket (for Flyway SQL files)
 ![S3 Bucket](docs/s3-bucket.png)
+
 
 
 ---
