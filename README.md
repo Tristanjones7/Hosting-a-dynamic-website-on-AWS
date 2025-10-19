@@ -42,7 +42,7 @@ It integrates the following key AWS components:
 ## 🌍 Live Site Preview
 
 <p align="center">
-  <img src="./image.png" alt="Live Website Screenshot" width="700">
+  <img src="Docs/website.png" alt="Live Website Screenshot" width="700">
 </p>
 
 ---
@@ -59,9 +59,6 @@ It integrates the following key AWS components:
 ---
 
 ## 📸 Screenshots
-
-#### ✅ Website via Application Load Balancer  
-![Deployed Website](Docs/Website.png)
 
 #### ✅ EC2 Instances (Auto Scaling Group)  
 ![EC2 Instances](Docs/EC2Instance.png)
