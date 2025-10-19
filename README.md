@@ -5,7 +5,6 @@ A secure, scalable, and production-grade deployment of a <b>dynamic web applicat
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-Terraform-orange?logo=amazonaws&logoColor=white" alt="AWS Terraform Badge"/>
-  <img src="https://img.shields.io/badge/Infrastructure-as-Code-blue?logo=terraform&logoColor=white" alt="IaC Badge"/>
   <img src="https://img.shields.io/badge/Automation-Flyway-red?logo=flyway&logoColor=white" alt="Flyway Badge"/>
   <img src="https://img.shields.io/badge/Load%20Balancing-ALB-green?logo=aws&logoColor=white" alt="ALB Badge"/>
 </p>
