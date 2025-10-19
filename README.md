@@ -1,6 +1,6 @@
 <h1 align="center">🌐 Dynamic Website Hosting on AWS</h1>
 <p align="center">
-A secure, scalable, and production-grade deployment of a <b>dynamic web application</b> on AWS — leveraging infrastructure-as-code and cloud-native best practices.
+A secure, scalable, and production-grade deployment of a <b>dynamic web application</b> on AWS leveraging infrastructure-as-code and cloud-native best practices.
 </p>
 
 <p align="center">
