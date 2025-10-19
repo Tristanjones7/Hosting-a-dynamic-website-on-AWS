@@ -42,7 +42,7 @@ It integrates the following key AWS components:
 ## 🌍 Live Site Preview
 
 <p align="center">
-  <img src="Docs/website.png" alt="Live Website Screenshot" width="700">
+  <img src="./website.png" alt="Live Website Screenshot" width="700">
 </p>
 
 ---
