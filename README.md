@@ -38,89 +38,96 @@ It integrates the following key AWS components:
   <img src="./Docs/architecture-diagram.png" alt="Architecture Diagram" width="700">
 </p>
 
-### 🧩 Mermaid Architecture Diagram
+---
 
-```mermaid
-graph TD
-    A[User] -->|HTTPS| B[Route 53]
-    B --> C[Application Load Balancer]
-    C --> D[EC2 Auto Scaling Group]
-    D --> E[(Amazon EFS)]
-    D --> F[(Amazon RDS)]
-    C --> G[Internet Gateway]
-    G --> H[NAT Gateway]
-    H --> D
-    D --> I[Private Subnets]
-    C --> J[Public Subnets]
-    C --> K[ACM SSL Certificates]
-    D --> L[S3 Bucket (SQL Files)]
-    D --> M[Flyway Migrations]
-    D --> N[Security Groups]
+## 🌍 Live Site Preview
 
-    subgraph VPC
-        J
-        I
-        E
-        F
-        L
-    end
-🌍 Live Site Preview
-<p align="center"> <img src="./image.png" alt="Live Website Screenshot" width="700"> </p>
-🚀 Deployment Workflow
-Launch EC2 instances via Auto Scaling Group (ASG) within private subnets
-On startup, EC2 pulls SQL migration scripts from S3
-Flyway applies migrations to the RDS MySQL database
-The ALB routes incoming HTTPS traffic to healthy EC2s
-ACM issues and manages the SSL certificate
-Route 53 connects the domain to the ALB for public access
-📸 Screenshots
-✅ Website via Application Load Balancer
+<p align="center">
+  <img src="./image.png" alt="Live Website Screenshot" width="700">
+</p>
 
+---
 
-✅ EC2 Instances (Auto Scaling Group)
+## 🚀 Deployment Workflow
 
+1. Launch EC2 instances via **Auto Scaling Group (ASG)** within private subnets  
+2. On startup, EC2 pulls **SQL migration scripts from S3**  
+3. **Flyway** applies migrations to the **RDS MySQL database**  
+4. The **ALB** routes incoming HTTPS traffic to healthy EC2s  
+5. **ACM** issues and manages the SSL certificate  
+6. **Route 53** connects the domain to the ALB for public access  
 
-✅ Application Load Balancer
+---
 
+## 📸 Screenshots
 
-✅ Target Group Health Checks
+#### ✅ Website via Application Load Balancer  
+![Deployed Website](Docs/Website.png)
 
+#### ✅ EC2 Instances (Auto Scaling Group)  
+![EC2 Instances](Docs/EC2Instance.png)
 
-✅ RDS Instance
+#### ✅ Application Load Balancer  
+![ALB Dashboard](Docs/ApplicationLoadBalancer.png)
 
+#### ✅ Target Group Health Checks  
+![Target Group](Docs/TargetGroup.png)
 
-✅ S3 Bucket (Flyway SQL Files)
+#### ✅ RDS Instance  
+![RDS Database](Docs/RDSInstance.png)
 
+#### ✅ S3 Bucket (Flyway SQL Files)  
+![S3 Bucket](Docs/S3-Bucket.png)
 
-🧪 Tools & Services Used
-Service	Purpose
-EC2	Host web server
-RDS MySQL	Relational database backend
-ALB	Load balancing & SSL termination
-ASG	Scaling and resilience
-Route 53	Domain & DNS routing
-ACM	HTTPS encryption
-S3	SQL migration storage
-Flyway	Database automation
-NAT Gateway	Outbound internet access
-EC2 ICE	Secure shell connectivity
-Security Groups	Access control
-IAM	Role-based permissions
-🧹 Post-Deployment Cleanup
-To stay within the AWS Free Tier, all cost-incurring resources were decommissioned after testing:
-✅ NAT Gateway deleted
-✅ EC2 & ASG terminated
-✅ ALB and Target Groups removed
-✅ RDS instance deleted
-✅ EBS volumes cleaned
+---
 
-💼 About the Author
-Tristan Jones
-AWS Certified Solutions Architect – Associate
-🚀 Aspiring Cloud Engineer building production-ready AWS projects.
-🔗 LinkedIn
-💻 GitHub
-📬 Contributing
+## 🧪 Tools & Services Used
+
+| Service | Purpose |
+|----------|----------|
+| **EC2** | Host web server |
+| **RDS MySQL** | Relational database backend |
+| **ALB** | Load balancing & SSL termination |
+| **ASG** | Scaling and resilience |
+| **Route 53** | Domain & DNS routing |
+| **ACM** | HTTPS encryption |
+| **S3** | SQL migration storage |
+| **Flyway** | Database automation |
+| **NAT Gateway** | Outbound internet access |
+| **EC2 ICE** | Secure shell connectivity |
+| **Security Groups** | Access control |
+| **IAM** | Role-based permissions |
+
+---
+
+## 🧹 Post-Deployment Cleanup
+
+To stay within the **AWS Free Tier**, all cost-incurring resources were decommissioned after testing:
+
+✅ NAT Gateway deleted  
+✅ EC2 & ASG terminated  
+✅ ALB and Target Groups removed  
+✅ RDS instance deleted  
+✅ EBS volumes cleaned  
+
+---
+
+## 💼 About the Author
+
+**Tristan Jones**  
+AWS Certified Solutions Architect – Associate  
+🚀 Aspiring Cloud Engineer building production-ready AWS projects.  
+🔗 [LinkedIn](https://www.linkedin.com/in/tristan-jones-0a106a217/)  
+💻 [GitHub](https://github.com/Tristanjones7)
+
+---
+
+## 📬 Contributing
+
 Contributions are welcome — open an issue or PR with your improvements and ideas!
-📄 License
-This project is open source under the MIT License.
+
+---
+
+## 📄 License
+
+This project is open source under the [MIT License](LICENSE).
