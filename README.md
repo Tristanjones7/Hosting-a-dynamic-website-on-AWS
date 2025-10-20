@@ -113,7 +113,7 @@ To stay within the **AWS Free Tier**, all cost-incurring resources were decommis
 **Tristan Jones**  
 AWS Certified Solutions Architect – Associate  
 AWS Certified Sys Ops - Associate
-🚀 Aspiring Cloud Engineer building production-ready AWS projects.  
+🚀 Buillding production-ready AWS projects.  
 🔗 [LinkedIn](https://www.linkedin.com/in/tristan-jones-0a106a217/)  
 💻 [GitHub](https://github.com/Tristanjones7)
 
