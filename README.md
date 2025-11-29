@@ -26,7 +26,7 @@ It integrates the following key AWS components:
 - **AWS Certificate Manager (ACM)** — manages SSL/TLS certificates  
 - **Amazon Route 53** — handles DNS and domain routing  
 - **NAT Gateway** + **EC2 Instance Connect Endpoint** — secure outbound internet access  
-- **Security Groups** — manage network ingress and egress rules  
+- **Security Groups** — manage network ingress and egress rules .
 - **IAM Roles & Policies** — enforce least-privilege permissions  
 
 ---
